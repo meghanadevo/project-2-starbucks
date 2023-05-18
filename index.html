@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Starbucks</title>
+        <link href="images/favicon (1).ico" rel="icon">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
+    </head>
+    <body>
+            <div id="main">
+        <header>
+            <img src="images/starbuks logo.png" style="height:60px;width:60px; float:left;border-radius: 50%;">
+            <div class="home"><a href="index.html">Home</a></div>
+             <div class="home"><a href="*">Gift</a></div>
+             <div class="home"><a href="*">Order</a></div> 
+             <div class="home"><a href="*">Pay</a></div>
+             <div class="home"><a href="*">Store</a></div>
+              <span id="geo" onclick="geolocation()"><i class="fa-solid fa-location-dot"></i></span>
+              <span id="out"></span>
+             <form ><input type="text" placeholder= "looking for something else??"></form>
+             <span id="ld-mode" onclick="changemode()"><i class="fa-regular fa-moon fa-2x"></i></span>
+             <span id = "w-forecast"><i class="fa-solid fa-cloud-sun-rain fa-2x"></i></span>
+             <span id="weather"></span>
+             <div class="user"><i class="fa-solid fa-circle-user fa-3x"></i></div>
+        </header>
+        <div class="section-1">
+            <span style="color:white;float:left;font-size:20px;">Rewards are pouring!Sign up now.</span>
+            <button type="button">Know more</button>
+        </div>
+        <!--section-2-->
+        <div class="Handcrafted">
+            <h3 style="font-weight:bold;font-size:25px;">Handcrafted Curations</h3>
+           <img  class="hc" src="images/coffe.jpeg">
+           <img class="hc" src="images/food.jpeg">
+           <img class="hc" src="images/powder.jpeg">
+            <img class="hc" src="images/merchandise.jpg">
+            <img class="hc" src="images/cookies.jpeg">
+            <span class="first-caption">Best seller</span>
+            <span class="caption">Food</span>
+            <span class="caption">Coffee at Home</span>
+            <span class="caption">Merchandise</span>
+            <span class="caption">Ready to eat</span>
+        </div>
+        <!--section-3-->
+        <div class="Barista">
+            <div class="BR-header">
+            <h3 style="color:#2C3333;font-weight:bold;font-size:25px;display:inline-block;">Barista Recommends</h3>
+            <button type="submit">View more</button>
+        </div>
+         <div class="tile">
+            <div class="BR"><img class="BR-img" src="images/java-2.jpeg">
+                <img src="images/veg logo.jpeg" style="height:15px;width:15px;position:relative;bottom:55px;left:30px;">
+                <span class="BR-span" style="color:gray;">Java-chip-Frappucino</span>
+                <span class="BR-span" style="color:gray;font-size:10px;position:absolute;top:20px;">TALL(354 ml) 354 KCal</span>
+                <div class="BR-span2"><span class="span-below">₹351.75</span>
+                    <button type="button" style="float:right;border:none;border-radius:18px;margin-right:30px;padding:6px 15px;">Add item</button>
+                </div>
+            </div>
+            <div class="BR"><img class="BR-img" src="images/cold coffee.jpeg">
+                <img src="images/veg logo.jpeg" style="height:15px;width:15px;position:relative;bottom:55px;left:30px;">
+                <span class="BR-span" style="color:gray;">Cold Coffee</span>
+                <span class="BR-span" style="color:gray;font-size:10px;position:absolute;top:20px;">TALL(354 ml) 354 KCal</span>
+                <div class="BR-span2"><span class="span-below">₹351.75</span>
+                    <button type="button" style="float:right;border:none;border-radius:18px;margin-right:30px;padding:6px 15px;">Add item</button>
+                </div>
+            </div>
+            <div class="BR"><img class="BR-img" src="images/brew.jpeg">
+                <img src="images/veg logo.jpeg" style="height:15px;width:15px;position:relative;bottom:55px;left:30px;">
+                <span class="BR-span" style="color:gray;">Vanilla Sweet Cream Cold Brew</span>
+                <span class="BR-span" style="color:gray;font-size:10px;position:absolute;top:20px;">TALL(354 ml) 63KCal</span>
+                <div class="BR-span2"><span class="span-below">₹383.25</span>
+                    <button type="button" style="float:right;border:none;border-radius:18px;margin-right:30px;padding:6px 15px;">Add item</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--section-4-->
+        <div class="tribute">
+               <div class="tr-1">
+                <img src="images/tribute.webp" style="float:left;width:150px;height:180px;margin:25px 70px">
+                <p class="para" style="padding-top:15px;">Presenting</p><br/>
+                <p class="para"style="font-size:22px;">Tribute Blend Wholebean</p><br/>
+                <p class="para">Medium roast blend of Coffee from four regions.Enjoy the notes of blackberry and baking spices in every sip.</p><br/>
+                <p class="para">For ₹1400.00</p><br/>
+                <button type="button" style="float:right;font-weight:bold;padding:15px 50px;margin-right:30px;border:none;border-radius:12px;background-color: white;color:black">Order Now</button>
+        </div>
+        </div>
+        <!--section-5-->
+        <div class="coffee">
+            <div class="coffee-header">
+            <h2 style="color:black;display:inline-block;">Learn more about the world of coffee!</h2>
+            <button type="submit"style="float:right;border:none;background-color:#F0E9E9;color:#14C38E;margin-top:20px;font-weight:bold;">Discover more</button></div>
+            <div class="coffee-body">
+                    <button type="submit">Coffee culture</button>
+                    <div class="coffee-sub-body" style="background-image: url('images/coffee-plucking.jpg');box-shadow:2px 2px 120px  black inset;">
+                <h3 style="color:white; margin-top:30%;line-height:0.3rem;font-size:27px;">Starbucks' Commitment to Sustainability</h3>
+                <p style="color:white;font-size:small;font-weight:bold;">With sustainable practices and high quality standards,Starbucks is committed to good quality and good of the earth. </p>
+                <button type="submit">Learn more</button>
+                    </div>
+            </div>
+            </div>
+    <!--section-5-->
+    <div class="Location">
+        <div class="Location-header">
+        <h2 style="display: inline-block;">We have a news for you!</h2>
+    </div>
+        <div class="Location-body">
+            <img src="images/loc-mysore.jpg" style="height:180px;margin:0% 0% 2% 0%;width:100%;border-radius:12px 12px 0px 0px;">
+            <h2>New Store in Mysuru</h2>
+            <p>Tata starbucks expands its footprints in Southern India with the opening of....</p>
+            <button type="submit">Know more</button>
+        </div>
+    </div>
+    <footer>
+        <div class="lists">
+        <ul>
+            <li><img src="images/starbuks logo.png" style="width:70px;height:70px;border-radius:100%;"></li>
+        </ul>
+        </div>
+            <div class="lists">
+                <ul>
+                    <li class="heading">About Us</li>
+                    <li class="point">Our Heritage</li>
+                    <li class="point">Our Company</li>
+                    <li class="point">Coffeehouse</li>
+                </ul>
+                </div>
+                <div class="lists">
+                    <ul>
+                        <li class="heading">Responsibility</li>
+                        <li class="point">Community</li>
+                        <li class="point">Ethnic Sourcing</li>
+                        <li class="point">Environment</li>
+                        <li class="point">Diversity</li>
+                    </ul>
+                    </div>
+                    <div class="lists">
+                        <ul>
+                            <li class="heading">Quick Links</li>
+                            <li class="point">Delivery</li>
+                            <li class="point">Season's Gifting</li>
+                            <li class="point">Careers</li>
+                            <li class="point">Customer Service</li>
+                            <li class="point">FAQs</li>
+                        </ul>
+                        </div>
+                        <div class="lists">
+                            <ul>
+                                <li class="heading">SOCIAL MEDIA</li>
+                                <li><i class="fa-brands fa-instagram fa-2x"></i>&nbsp;&nbsp;
+                                    <i class="fa-brands fa-facebook-f fa-2x"></i>&nbsp;&nbsp;
+                                    <i class="fa-brands fa-twitter fa-2x"></i></li>
+                            </div>
+                            <div class="lists">
+                                <ul>
+                                    <li class="heading"><button type="submit"><i class="fa-brands fa-apple fa-2x"></i> Download Now</button></li>
+                                    <li class="heading"><button type="submit"><i class="fa-brands fa-google-play fa-2x"></i> Download Now</button></li>
+                                    </ul>
+                                </div>
+                                <hr style="display:block;width:85%;color:white; margin-top:3%;">
+                                <div class="foot-list"><ul><li>Web accessibility</li></ul></div>
+                                <div class="foot-list"><ul><li>Privacy Statement</li></ul></div>
+                                <div class="foot-list"><ul><li>Terms of Use</li></ul></div>
+                                <div class="foot-list"><ul><li>Contact Us</li></ul></div>
+                                <div id="foot-list"><ul><li>&copy; Starbucks</li></ul></div>
+    </footer>
+    </div>
+    <div id="coupon" style="background-image: url('images/gift-bg-3.jpg');">
+        <button id="close" onclick="closeCoupon()">X</button>
+        <center>
+            <img class="coupon-img" src="images/coffee-cup.webp">
+        </center>
+        <center>
+        <p class="coupon-para">Gift your loved ones 🥰💝 </p>
+        <button id="giftcards">See Gift cards</button>
+        </center>
+    </div>
+    <script>
+        function changemode(){
+    let starbody = document.body;
+    starbody.classList.toggle('dark');
+}
+function loadcoupon(){
+    document.getElementById('coupon').style.visibility="visible";
+    document.getElementById('main').style.opacity=0.5;
+}
+function closeCoupon(){
+    document.getElementById('coupon').style.visibility="hidden";
+    document.getElementById('main').style.opacity=1;
+}
+        window.onload = loadcoupon()
+         let x = document.getElementById('out');
+      let y = document.getElementById('weather');
+    function geolocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition)
+    }
+    else{
+        x.innerText="geo not supported"
+    }
+}
+function showPosition(data){
+    console.log(data)
+    let lat = data.coords.latitude;
+    let lon = data.coords.longitude;
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+                fetch(url,{method: 'GET'})
+                .then((res) =>res.json())
+                .then((data) => {
+                    console.log(data)
+                    let cityName = data.city.name;
+                    let temp = data.list[0].temp.day+" °C"
+                    x.innerText = cityName;
+                    y.innerText = temp;
+                })
+            }
+    </script>
+    </body>
+</html> 
