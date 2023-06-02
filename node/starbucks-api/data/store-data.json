@@ -1,0 +1,445 @@
+[
+    {
+        "item_id":1,
+        "item_name":"Belgium Chocolate latte",
+        "category_id":1,
+        "area_id":1,
+        "price":320,
+        "menu-thumb":"https://ibb.co/mBdc9p6"
+    },
+        {
+            "item_id":2,
+            "item_name":"Salted Dark Caramel Latte",
+            "category_id":1,
+            "area_id":1,
+            "price":320,
+            "menu-thumb":"https://ibb.co/2WXK36H"
+        }, 
+        {
+            "item_id":3,
+            "item_name":"Caffe Americano",
+            "category_id":1,
+            "area_id":1,
+            "price":340,
+            "menu-thumb":"https://ibb.co/TPR3yJc"
+        },
+        {
+            "item_id":13,
+            "item_name":"Dappio Espresso",
+            "category_id":1,
+            "area_id":1,
+            "price":340,
+            "menu-thumb":"https://ibb.co/hCWMkz1"
+        },
+        {
+            "item_id":4,
+            "item_name":"Chilli cheese Toast",
+            "category_id":2,
+            "area_id":1,
+            "price":450,
+            "menu-thumb":"https://ibb.co/7nWyXBz"
+        },
+        {
+            "item_id":5,
+            "item_name":"Butter Croissant",
+            "category_id":2,
+            "area_id":1,
+            "price":280,
+            "menu-thumb":"https://ibb.co/s5Wg3qt"
+        },
+        {
+            "item_id":6,
+            "item_name":"Tandoori Chicken Sandwich",
+            "category_id":2,
+            "area_id":1,
+            "price":590,
+            "menu-thumb":"https://ibb.co/PzLQrSx"
+        },
+        {
+            "item_id":7,
+            "item_name":"Bean to Cup Ceramic Mug",
+            "category_id":3,
+            "area_id":1,
+            "price":1000,
+            "menu-thumb":"https://ibb.co/qrcBnDP"
+        },
+        {
+            "item_id":8,
+            "item_name":"Classic Black Demi Ceramic Mug",
+            "category_id":3,
+            "area_id":1,
+            "price":1200,
+            "menu-thumb":"https://ibb.co/b2XFqJ8"
+        },
+        {
+            "item_id":9,
+            "item_name":"Blonde Roast - 125 gms",
+            "category_id":4,
+            "area_id":1,
+            "price":350,
+            "menu-thumb":"https://ibb.co/C0F1F37"
+        },
+        {
+            "item_id":10,
+            "item_name":"Espresso Roast",
+            "category_id":4,
+            "area_id":1,
+            "price":460,
+            "menu-thumb":"https://ibb.co/2dpnk6T"
+        },
+        {
+            "item_id":11,
+            "item_name":"Almond Biscotti",
+            "category_id":5,
+            "area_id":1,
+            "price":540,
+            "menu-thumb":"https://ibb.co/ScVr5Cm"
+        },
+        {
+            "item_id":12,
+            "item_name":"Roasted & Salted Almonds",
+            "category_id":6,
+            "area_id":1,
+            "price":230,
+            "menu-thumb":"https://ibb.co/mBdc9p6"
+        },
+        {
+            "item_id":14,
+            "item_name":"Roasted & Salted cashews",
+            "category_id":6,
+            "area_id":1,
+            "price":260,
+            "menu-thumb":"https://ibb.co/mBdc9p6"
+    
+        },
+        {
+            "item_id":1,
+            "item_name":"Belgium Chocolate latte",
+            "category_id":1,
+            "area_id":2,
+            "price":320,
+            "menu-thumb":"https://ibb.co/mBdc9p6"
+        },
+            {
+                "item_id":2,
+                "item_name":"Salted Dark Caramel Latte",
+                "category_id":1,
+                "area_id":2,
+                "price":320,
+                "menu-thumb":"https://ibb.co/2WXK36H"
+            }, 
+            {
+                "item_id":3,
+                "item_name":"Caffe Americano",
+                "category_id":1,
+                "area_id":2,
+                "price":340,
+                "menu-thumb":"https://ibb.co/TPR3yJc"
+            },
+            {
+                "item_id":4,
+                "item_name":"Chilli cheese Toast",
+                "category_id":2,
+                "area_id":2,
+                "price":450,
+                "menu-thumb":"https://ibb.co/7nWyXBz"
+            },
+            {
+                "item_id":5,
+                "item_name":"Butter Croissant",
+                "category_id":2,
+                "area_id":2,
+                "price":280,
+                "menu-thumb":"https://ibb.co/s5Wg3qt"
+            },
+            {
+                "item_id":6,
+                "item_name":"Tandoori Chicken Sandwich",
+                "category_id":2,
+                "area_id":2,
+                "price":590,
+                "menu-thumb":"https://ibb.co/PzLQrSx"
+            },
+            {
+                "item_id":15,
+                "item_name":"Vegan Croissant Bun",
+                "category_id":2,
+                "area_id":2,
+                "price":430,
+                "menu-thumb":"https://ibb.co/nrjF9Pk"
+            },
+            {
+                "item_id":16,
+                "item_name":"Bunny on yarn",
+                "category_id":3,
+                "area_id":2,
+                "price":1000,
+                "menu-thumb":"https://ibb.co/bJvRD9X"
+            },
+            {
+                "item_id":8,
+                "item_name":"Classic Black Demi Ceramic Mug",
+                "category_id":3,
+                "area_id":2,
+                "price":1200,
+                "menu-thumb":"https://ibb.co/b2XFqJ8"
+            },
+            {
+                "item_id":9,
+                "item_name":"Blonde Roast - 125 gms",
+                "category_id":4,
+                "area_id":2,
+                "price":350,
+                "menu-thumb":"https://ibb.co/C0F1F37"
+            },
+            {
+                "item_id":10,
+                "item_name":"Espresso Roast",
+                "category_id":4,
+                "area_id":2,
+                "price":460,
+                "menu-thumb":"https://ibb.co/2dpnk6T"
+            },
+            {
+                "item_id":11,
+                "item_name":"Almond Biscotti",
+                "category_id":5,
+                "area_id":2,
+                "price":540,
+                "menu-thumb":"https://ibb.co/ScVr5Cm"
+            },
+            {
+                "item_id":12,
+                "item_name":"Roasted & Salted Almonds",
+                "category_id":6,
+                "area_id":2,
+                "price":230,
+                "menu-thumb":"https://ibb.co/K03VvmW"
+            },
+                {
+                    "item_id":2,
+                    "item_name":"Salted Dark Caramel Latte",
+                    "category_id":1,
+                    "area_id":3,
+                    "price":320,
+                    "menu-thumb":"https://ibb.co/2WXK36H"
+                }, 
+                {
+                    "item_id":3,
+                    "item_name":"Caffe Americano",
+                    "category_id":1,
+                    "area_id":3,
+                    "price":340,
+                    "menu-thumb":"https://ibb.co/TPR3yJc"
+                },
+                {
+                    "item_id":13,
+                    "item_name":"Dappio Espresso",
+                    "category_id":1,
+                    "area_id":3,
+                    "price":340,
+                    "menu-thumb":"https://ibb.co/hCWMkz1"
+                },
+                {
+                    "item_id":4,
+                    "item_name":"Chilli cheese Toast",
+                    "category_id":2,
+                    "area_id":3,
+                    "price":450,
+                    "menu-thumb":"https://ibb.co/7nWyXBz"
+                },
+                {
+                    "item_id":5,
+                    "item_name":"Butter Croissant",
+                    "category_id":2,
+                    "area_id":3,
+                    "price":280,
+                    "menu-thumb":"https://ibb.co/s5Wg3qt"
+                },
+                {
+                    "item_id":6,
+                    "item_name":"Tandoori Chicken Sandwich",
+                    "category_id":2,
+                    "area_id":3,
+                    "price":590,
+                    "menu-thumb":"https://ibb.co/PzLQrSx"
+                },
+                
+                {
+                    "item_id":16,
+                    "item_name":"Bunny on yarn",
+                    "category_id":3,
+                    "area_id":3,
+                    "price":1000,
+                    "menu-thumb":"https://ibb.co/bJvRD9X"
+                },
+                {
+                    "item_id":8,
+                    "item_name":"Classic Black Demi Ceramic Mug",
+                    "category_id":3,
+                    "area_id":3,
+                    "price":1200,
+                    "menu-thumb":"https://ibb.co/qrcBnDP"
+                },
+                {
+                    "item_id":18,
+                    "item_name":"Green Ceramic Mug",
+                    "category_id":3,
+                    "area_id":3,
+                    "price":750,
+                    "menu-thumb":"https://ibb.co/HFjk4WJ"
+                },
+                {
+                    "item_id":9,
+                    "item_name":"Blonde Roast - 125 gms",
+                    "category_id":4,
+                    "area_id":3,
+                    "price":350,
+                    "menu-thumb":"https://ibb.co/C0F1F37"
+                },
+                {
+                    "item_id":10,
+                    "item_name":"Espresso Roast",
+                    "category_id":4,
+                    "area_id":3,
+                    "price":460,
+                    "menu-thumb":"https://ibb.co/2dpnk6T"
+                },
+                {
+                    "item_id":17,
+                    "item_name":"Sumatra",
+                    "category_id":4,
+                    "area_id":3,
+                    "price":490,
+                    "menu-thumb":"https://ibb.co/fq44WbC"
+                },
+                {
+                    "item_id":11,
+                    "item_name":"Almond Biscotti",
+                    "category_id":5,
+                    "area_id":3,
+                    "price":540,
+                    "menu-thumb":"https://ibb.co/ScVr5Cm"
+                },
+                {
+                    "item_id":12,
+                    "item_name":"Roasted & Salted Almonds",
+                    "category_id":6,
+                    "area_id":3,
+                    "price":230,
+                    "menu-thumb":"https://ibb.co/K03VvmW"
+                },
+                
+    {
+        "item_id":1,
+        "item_name":"Belgium Chocolate latte",
+        "category_id":1,
+        "area_id":4,
+        "price":320,
+        "menu-thumb":"https://ibb.co/mBdc9p6"
+    },
+        {
+            "item_id":3,
+            "item_name":"Caffe Americano",
+            "category_id":1,
+            "area_id":4,
+            "price":340,
+            "menu-thumb":"https://ibb.co/TPR3yJc"
+        },
+        {
+            "item_id":13,
+            "item_name":"Dappio Espresso",
+            "category_id":1,
+            "area_id":4,
+            "price":340,
+            "menu-thumb":"https://ibb.co/hCWMkz1"
+        },
+        {
+            "item_id":4,
+            "item_name":"Chilli cheese Toast",
+            "category_id":2,
+            "area_id":4,
+            "price":450,
+            "menu-thumb":"https://ibb.co/7nWyXBz"
+        },
+        {
+            "item_id":5,
+            "item_name":"Butter Croissant",
+            "category_id":2,
+            "area_id":4,
+            "price":280,
+            "menu-thumb":"https://ibb.co/s5Wg3qt"
+        },
+        {
+            "item_id":6,
+            "item_name":"Tandoori Chicken Sandwich",
+            "category_id":2,
+            "area_id":4,
+            "price":590,
+            "menu-thumb":"https://ibb.co/PzLQrSx"
+        },
+        {
+        "item_id":15,
+        "item_name":"Vegan Croissant Bun",
+        "category_id":2,
+        "area_id":4,
+        "price":430,
+        "menu-thumb":"https://ibb.co/nrjF9Pk"
+       },
+        {
+            "item_id":7,
+            "item_name":"Bean to Cup Ceramic Mug",
+            "category_id":3,
+            "area_id":4,
+            "price":1000,
+            "menu-thumb":"https://ibb.co/qrcBnDP"
+        },
+        {
+            "item_id":8,
+            "item_name":"Classic Black Demi Ceramic Mug",
+            "category_id":3,
+            "area_id":4,
+            "price":1200,
+            "menu-thumb":"https://ibb.co/b2XFqJ8"
+        },
+        {
+            "item_id":9,
+            "item_name":"Blonde Roast - 125 gms",
+            "category_id":4,
+            "area_id":4,
+            "price":350,
+            "menu-thumb":"https://ibb.co/C0F1F37"
+        },
+        {
+            "item_id":10,
+            "item_name":"Espresso Roast",
+            "category_id":4,
+            "area_id":4,
+            "price":460,
+            "menu-thumb":"https://ibb.co/2dpnk6T"
+        },
+        {
+            "item_id":11,
+            "item_name":"Almond Biscotti",
+            "category_id":5,
+            "area_id":4,
+            "price":540,
+            "menu-thumb":"https://ibb.co/ScVr5Cm"
+        },
+        {
+            "item_id":12,
+            "item_name":"Roasted & Salted Almonds",
+            "category_id":6,
+            "area_id":4,
+            "price":230,
+            "menu-thumb":"https://ibb.co/K03VvmW"
+        },
+        {
+            "item_id":14,
+            "item_name":"Roasted & Salted cashews",
+            "category_id":6,
+            "area_id":4,
+            "price":260,
+            "menu-thumb":"https://ibb.co/mBdc9p6"
+        }              
+        ]
