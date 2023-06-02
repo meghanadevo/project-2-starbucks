@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = 1531;
+let port = 4678;
 let {dbConnect,getData} = require('./controller/dbcontroller');
 
 app.get('/',(req,res) => {
@@ -37,7 +37,7 @@ app.get('/area', async(req,res) => {
 //get the store data
 app.get('/storedata', async(req,res) => {
     let query = {}
-    let collection = "area"
+    let collection = "storedata"
     let output = await getData(collection,query)
     res.send(output)
   
