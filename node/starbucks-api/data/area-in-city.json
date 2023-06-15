@@ -1,131 +1,257 @@
 [
     {
         "area-name":"Banjara-hills",
-        "area-id":1,
-        "city-id":1,
+        "area_id":1,
+        "city_id":1,
         "city-name":"hyderabad",
         "amenities":"wifi",
         "rating":4.3,
-        "food-category":[
+        "foodCategory":[
             {
-                "category-id":1,
+                "category_id":1,
                 "name":"Drinks"
             },
             {
-                "category-id":2,
+                "category_id":2,
                 "name":"Food"
             },
             {
-                "category-id":3,
+                "category_id":3,
                 "name":"Coffee at home"
-            },
-            {
-                "category-id":4,
-                "name":"Merchandise"
-            },
-            {
-                "category-id":5,
-                "name":"Ready to eat"
             }
+        ],
+        "menuType":[
+            {
+                "menu_id":1,
+                "menu_name":"Espresso",
+                "category_id":1
+            },
+                {
+                    "menu_id":2,
+                    "menu_name":"frappucino",
+                    "category_id":1
+                },
+                {
+                    "menu_id":3,
+                    "menu_name":"Sandwiches & wraps",
+                    "category_id":2
+                },
+                    {
+                        "menu_id":4,
+                        "menu_name":"Croissants & more",
+                        "category_id":2
+                    },
+                    {
+                        "menu_id":5,
+                        "menu_name":"Blend",
+                        "category_id":3
+                    },
+                        {
+                            "menu-id":6,
+                            "menu_name":"single origin",
+                            "category_id":3
+                        }
         ]
     },
     {
         "area-name":"GVK mall",
-        "area-id":2,
-        "city-id":1,
+        "area_id":2,
+        "city_id":1,
         "city-name":"hyderabad",
         "amenities":"wifi,Dine-in",
          "rating":4.5,
-         "food-category":[
+         "foodCategory":[
             {
-                "category-id":1,
+                "category_id":1,
                 "name":"Drinks"
             },
             {
-                "category-id":2,
-                "name":"Food"
+                "category_id":4,
+                "name":"Merchandise"
             },
             {
-                "category-id":3,
-                "name":"Coffee at home"
-            },
-            {
-                "category-id":5,
+                "category_id":5,
                 "name":"Ready to eat"
             }
+        ],
+        "menuType":[
+            {
+                "menu_id":1,
+                "menu_name":"Espresso",
+                "category_id":1
+            },
+                {
+                    "menu_id":2,
+                    "menu_name":"frappucino",
+                    "category_id":1
+                },
+                {
+                    "menu_id":7,
+                    "menu_name":"cups",
+                    "category_id":4
+                },
+                    {
+                        "menu_id":8,
+                        "menu_name":"Mugs",
+                        "category_id":4
+                    },
+                    {
+                        "menu_id":9,
+                        "menu_name":"chocolates & nuts",
+                        "category_id":5
+                    }
         ]
+
     },
     {
         "area-name":"Marol Andheri Road",
-        "area-id":3,
-        "city-id":2,
+        "area_id":3,
+        "city_id":2,
         "city-name":"Mumbai",
         "amenities":"wifi,Dine-in",
         "rating":3.4,
-        "food-category":[
+        "foodCategory":[
             {
-                "category-id":1,
+                "category_id":1,
                 "name":"Drinks"
             },
             {
-                "category-id":2,
+                "category_id":2,
                 "name":"Food"
             },
             {
-                "category-id":3,
-                "name":"Coffee at home"
+                "category_id":5,
+                "name":"Ready to eat"
+            }
+        ],
+        "menuType":[
+            {
+                "menu_id":1,
+                "menu_name":"Espresso",
+                "category_id":1
+            },
+            {
+                "menu_id":2,
+                "menu_name":"frappucino",
+                "category_id":1
+            },
+            {
+                "menu_id":3,
+                "menu_name":"Sandwiches & wraps",
+                "category_id":2
+            },
+            {
+                "menu_id":4,
+                "menu_name":"Croissants & more",
+                "category_id":2
+            },
+            {
+                "menu_id":9,
+                "menu_name":"chocolates & nuts",
+                "category_id":5
             }
         ]
     },
     {
         "area-name":"Vittal Malya Road",
-        "area-id":4,
+        "area_id":4,
         "city_id":3,
         "city-name":"Banglore",
         "amnities":"wifi",
         "rating":4.2,
-        "food-category":[
+        "foodCategory":[
             {
-                "category-id":1,
+                "category_id":1,
                 "name":"Drinks"
             },
             {
-                "category-id":2,
+                "category_id":2,
                 "name":"Food"
             },
             {
-                "category-id":3,
-                "name":"Coffee at home"
+                "category_id":4,
+                "name":"Merchandise"
             },
             {
-                "category-id":5,
+                "category_id":5,
                 "name":"Ready to eat"
+            }
+        ],
+        "menuType":[
+            {
+                "menu_id":1,
+                "menu_name":"Espresso",
+                "category_id":1
+            },
+            {
+                "menu_id":2,
+                "menu_name":"frappucino",
+                "category_id":1
+            },
+            {
+                "menu_id":3,
+                "menu_name":"Sandwiches & wraps",
+                "category_id":2
+            },
+            {
+                "menu_id":4,
+                "menu_name":"Croissants & more",
+                "category_id":2
+            },
+            {
+                "menu_id":7,
+                "menu_name":"cups",
+                "category_id":4
+            },
+            {
+                "menu_id":8,
+                "menu_name":"Mugs",
+                "category_id":4
+            },
+            {
+                "menu_id":9,
+                "menu_name":"chocolates & nuts",
+                "category_id":5
             }
         ]
     },
     {
         "area-name":"Netaji Subash place",
-        "area-id":5,
-        "city-id":4,
+        "area_id":5,
+        "city_id":4,
         "city-name":"Delhi",
         "amenities":"wifi,Dine-in",
         "rating":4.5,
-        "food-category":[
+        "foodCategory":[
             {
-                "category-id":1,
+                "category_id":1,
                 "name":"Drinks"
             },
             {
-                "category-id":2,
-                "name":"Food"
-            },
-            {
-                "category-id":3,
+                "category_id":3,
                 "name":"Coffee at home"
+            }
+        ],
+        "menuType":[
+            {
+                "menu_id":1,
+                "menu_name":"Espresso",
+                "category_id":1
             },
             {
-                "category-id":5,
-                "name":"Ready to eat"
+                "menu_id":2,
+                "menu_name":"frappucino",
+                "category_id":1
+            },
+            {
+                "menu_id":5,
+                "menu_name":"Blend",
+                "category_id":3
+            },
+            {
+                "menu_id":6,
+                "menu_name":"single origin",
+                "category_id":3
             }
         ]
     }

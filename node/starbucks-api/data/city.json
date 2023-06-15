@@ -1,28 +1,28 @@
 [
     {
         "city_name":"Hyderabad",
-        "city-id":1,
+        "city_id":1,
         "state":"Telangana",
         "state-id":1,
         "country":"India"
     },
     {
         "city_name":"Mumbai",
-        "city-id":2,
+        "city_id":2,
         "state":"Maharashtra",
         "state-id":2,
         "country":"India"
     },
     {
         "city_name":"Banglore",
-        "city-id":3,
+        "city_id":3,
         "state":"Karnataka",
         "state-id":3,
         "country":"India"
     },
     {
         "city_name":"Delhi",
-        "city-id":4,
+        "city_id":4,
         "state":"Delhi",
         "state-id":4,
         "country":"India"

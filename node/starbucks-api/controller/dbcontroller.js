@@ -1,6 +1,6 @@
 let mongo = require('mongodb');
 let {MongoClient} = require('mongodb');
-let mongoUrl = "mongodb://127.0.0.1:27017";
+let mongoUrl = "mongodb+srv://meghana-pr-2:EU9nkraLK91hKkww@clustermeghana.qj2b2ia.mongodb.net/?retryWrites=true&w=majority";
 let client = new MongoClient(mongoUrl)
 
 async function dbConnect(){
@@ -22,8 +22,43 @@ async function getData(colName,query){
     }
     return output
 }
+async function postData(colName,data){
+    let output;
+    try{
+        output=await db.collection(colName).insertOne(data)
+    }
+    catch(err){
+        output = {"Error":"Error occured"}
+    }
+    return output;
+}
+async function updateOrder(colName,condition,data){
+    let output;
+    try{
+       output = await db.collection(colName).updateOne(condition,data)
+    }
+    catch(err){
+    output = {"response":"Error in update data"}
+}
+ return output
+}
+
+async function deleteOrder(colName,condition){
+    let output;
+    try{
+       output = await db.collection(colName).deleteOne(condition)
+    }
+    catch(err){
+    output = {"response":"Error in deleting data"}
+}
+ return output
+}
+
 
 module.exports = {
     dbConnect,
-    getData
+    getData,
+    postData,
+    updateOrder,
+    deleteOrder
 }
