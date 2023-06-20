@@ -1,6 +1,7 @@
 let express = require('express');
 let app = express();
-let port = process.env.PORT||2415
+let port = process.env.PORT||2415;
+let Mongo = require('mongodb')
 const bodyParser= require('body-parser');
 const cors =require('cors');
 let {dbConnect,getData,postData,updateOrder,deleteOrder} = require('./controller/dbcontroller');
@@ -99,39 +100,40 @@ app.get('/filter/:categoryId',async(req,res)=>{
         let response = await postData(collection,data)
         res.send(response)
     })
-    //details of the items
-    app.post('/menudetails',async(req,res)=>{
-        if(Array.isArray(req.body.id)){
-            let query = {item_id:{$in:req.body.id}}
-            let collection="menu";
-            let output = await getData(collection,query);
-            res.send(output)
+    //details of selected menu items
+    app.post('/menuDetails',async(req,res)=>{
+        if (Array.isArray(req.body.item_id)){
+           let query = {item_id:{$in:req.body.item_id}}
+           let collection = 'menu';
+           let output = await getData(collection,query)
+           res.send(output);
         }
         else{
-            res.send("Please pass an array")
+            res.send("Please pass an array" )
         }
     })
-    //updating orders
+    //Updating order
     app.put('/updateOrder',async(req,res)=>{
         let collection = 'orders';
-        let condition = {"o_id":req.body.order_id}
+        let condition = {"_id":new Mongo.ObjectId(req.body._id)}
         data={
             $set:{
-            "status":req.body.status
+            "status":"Order received"
         }
     }
     let output = await updateOrder(collection,condition,data)
     res.send(output)
     })
-    //deleting order
-    app.put('/deleteOrder',async(req,res)=>{
+  
+    //deleting orders
+    app.delete('/deleteOrder',async(req,res)=>{
         let collection = 'orders';
-        let condition= {"o_id":req.body.order_id}
+        let condition= {"_id":new Mongo.ObjectId(req.body._id)}
     let output = await deleteOrder(collection,condition)
     res.send(output)
     })
 app.listen(port,(err) => {
     dbConnect()
     if(err) throw err;
-    console.log(`Server is running on port ${port}`)
+    console.log(`Server is running on port $(port)`)
 })

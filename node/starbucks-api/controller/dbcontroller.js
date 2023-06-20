@@ -53,8 +53,6 @@ async function deleteOrder(colName,condition){
 }
  return output
 }
-
-
 module.exports = {
     dbConnect,
     getData,

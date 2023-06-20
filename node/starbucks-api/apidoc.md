@@ -34,7 +34,7 @@ items available in the menu at selected store
 
 page5:
 ->List of items selected
-//link: http://localhost:2415/menudetails
+//link: http://localhost:2415/menuDetails
 {"item_id":[7,9]}
 ***live:https://starbucks-live.onrender.com/menudetails
 ->Place order
@@ -46,8 +46,9 @@ page6:
 ***live:https://starbucks-live.onrender.com/orders
 ->Update orders details
 //link:http://localhost:2415/updateOrder
-{"o_id":"1"}
+{"_id":"6490527e1a9a0af4cc2d009f"}
 ***live:https://starbucks-live.onrender.com/updateOrder
 ->Delete orders
-
+//link: http://localhost:2415/deleteOrder
+***live:https://starbucks-live.onrender.com/deleteOrder
 
