@@ -1,0 +1,63 @@
+footer{
+    height:450px;
+    background-color: #395144;
+    text-align:center;
+    color:white;
+    padding-left:7px;
+}
+ul{
+    list-style-type: none;
+}
+.lists{
+    float:left;
+    width:15%;
+    height:70%;
+    padding:20px 0px 0px 0px;
+}
+.heading{
+    font-size:medium;
+    font-weight:bold;
+    line-height: 2rem;
+}
+.point{
+    font-size: small;
+    font-weight:900;
+    line-height: 3rem;
+}
+.fa-brands{
+    padding:3px 4px 0px 4px;
+}
+.heading>button{
+    padding:10px 15px 10px 15px;
+    border-radius:8px;
+    margin-bottom:10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.foot-list{
+    float:left;
+    border-right: 1px solid white;
+    color: white;
+    margin-left:1.5%;
+    padding-left: 2.5%;
+    padding-right: 1%;
+    font-weight: 900;
+    font-size: 12px;
+}
+#foot-list{
+    float:right;
+    font-size:12px;
+    font-weight: 500;
+    margin-right:12%;
+}
+#footerhr{
+    display:block;
+    width:85%;
+    color:white; 
+    margin-top:3%;
+}
+#footerpic{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+}

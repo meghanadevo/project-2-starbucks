@@ -1,0 +1,34 @@
+.Handcrafted{
+    height:270px;
+    padding-left:10%;
+    padding-top:8px;
+}
+/*styling images in section-2(class not working for giving fig captions)*/
+.hc{
+    width: 105px;
+    height: 105px;
+    border-radius:50%;
+    float:left;
+    margin:10px 75px 10px 70px;
+}
+.hc:hover{
+    border-radius:3px solid rgb(13, 92, 13);
+}
+.first-caption{
+    font-size:18px;
+    font-weight:bold;
+    position:relative;
+    left:77px;
+    margin:6px 10px 10px 20px;
+}
+.caption{
+    font-size:18px;
+    font-weight:bold;
+    position:relative;
+    left:170px;
+    margin:6px 80px 50px 80px;
+}
+#hc-heading{
+    font-Weight:bold;
+    font-size:25px;
+}

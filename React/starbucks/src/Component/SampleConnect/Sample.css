@@ -1,0 +1,147 @@
+.sample-loc-box{
+    background-color:#395144;
+    height: 100px;
+    display:flex;
+    margin-top:10px;
+    margin-bottom: 10px; 
+ }
+ .sample-search-box{
+     height:36px;
+     width: 356px;
+     display:flex;
+     border-bottom:1px solid gray;
+     margin:40px 152px 0px;
+ }
+ .sample-my-spans{
+     font-size:15px;
+     font-weight:400;
+     color:gray;
+     margin:15px 30px ;
+ }
+ .sample-my-spans:hover{
+     color:white;
+ }
+ .sample-search-box:hover{
+     border-bottom:1px solid white;
+ }
+ .sample-menu{
+     display:flex;
+     height:48px;
+     background-color:#EEE2DE;
+     margin-top:0px;
+     padding-left: 150px;
+ }
+ .sample-menu-item{
+     float:left;
+     margin:10px 10px 0px 10px;
+     height:22px;
+     border-right:1px solid white;
+     padding:2px 15px 2px 10px;
+     color:gray;
+     font-size:14px;
+     font-weight:700;
+    vertical-align: baseline;
+ }
+ a{
+     text-decoration:none;
+     color:gray;
+     font-weight: bold;
+ }
+ a:hover{
+     text-decoration:underline;
+     text-decoration-color: #14C38E;
+     text-underline-offset: 0.5rem;
+     color:#14C38E;
+ }
+ .sample-tile{
+     display:flex;
+     margin-left:6.5%; 
+     padding-top:6%;
+ }
+ .sample-extra-tile-heading{
+     color:gray;
+     position:relative;
+     bottom: 55px;
+     left: 90px;
+ }
+ .sample-BR{
+     display:inline-block;
+     width:400px;
+     height:180px;
+     border-radius:12px;
+     position: relative;
+     background-color: white;
+     margin-left:2%;
+     margin-right:2%;
+     margin-bottom:4%;
+     box-shadow:0px 1px 5px gray;
+ }
+ .sample-BR-img{
+     border-radius:50px;
+     width:83px;
+     height:80px;
+     margin-top:10px;
+     margin-left:20px;
+     position: relative;
+     top: 8px;
+     right: 5px;
+ }
+ .sample-veg-logo{
+     height:15px;
+     width:15px;
+     position:relative;
+     bottom:55px;
+     left:30px;
+ }
+ .sample-BR-span{
+   
+     font-size: medium;
+     margin-top: 40px;
+     margin-left: 15px;
+     position: absolute;
+     color:gray;
+ }
+ .sample-BR-span-sub{
+     color:gray;
+     font-size:10px;
+     position:absolute;
+     top:20px;
+     margin-left: 15px;
+     font-size:10px;
+     top:61px;
+ }
+ .sample-BR-2{
+     font-size:10px;
+     position:absolute;
+     top:20px;
+     margin-left: 15px;
+     color:gray;
+     font-size:10px;
+     top:77px;  
+ }
+ .sample-BR-span2{
+     padding-top:5px;
+     padding-left:25px;
+ }
+ 
+ 
+ .sample-span-below{
+     font-size: medium;
+     font-weight:bold;
+     color:#2C3333;
+     float:left;
+     position: relative;
+     top: 9px;
+ }
+ .sample-barista-button{
+     float:right;
+     border:none;
+     border-radius:18px;
+     margin-right:30px;
+     padding:6px 15px;
+     background-color: #395144;
+     color:white;
+     font-weight:bold;
+     position:relative;
+     top:35px;
+ }

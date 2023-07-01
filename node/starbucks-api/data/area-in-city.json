@@ -1,9 +1,9 @@
 [
     {
-        "area-name":"Banjara-hills",
+        "area_name":"Banjara-hills",
         "area_id":1,
         "city_id":1,
-        "city-name":"hyderabad",
+        "city_name":"hyderabad",
         "amenities":"wifi",
         "rating":4.3,
         "foodCategory":[
@@ -54,10 +54,10 @@
         ]
     },
     {
-        "area-name":"GVK mall",
+        "area_name":"GVK mall",
         "area_id":2,
         "city_id":1,
-        "city-name":"hyderabad",
+        "city_name":"hyderabad",
         "amenities":"wifi,Dine-in",
          "rating":4.5,
          "foodCategory":[
@@ -104,10 +104,10 @@
 
     },
     {
-        "area-name":"Marol Andheri Road",
+        "area_name":"Marol Andheri Road",
         "area_id":3,
         "city_id":2,
-        "city-name":"Mumbai",
+        "city_name":"Mumbai",
         "amenities":"wifi,Dine-in",
         "rating":3.4,
         "foodCategory":[
@@ -153,10 +153,10 @@
         ]
     },
     {
-        "area-name":"Vittal Malya Road",
+        "area_name":"Vittal Malya Road",
         "area_id":4,
         "city_id":3,
-        "city-name":"Banglore",
+        "city_name":"Banglore",
         "amnities":"wifi",
         "rating":4.2,
         "foodCategory":[
@@ -216,10 +216,10 @@
         ]
     },
     {
-        "area-name":"Netaji Subash place",
+        "area_name":"Netaji Subash place",
         "area_id":5,
         "city_id":4,
-        "city-name":"Delhi",
+        "city_name":"Delhi",
         "amenities":"wifi,Dine-in",
         "rating":4.5,
         "foodCategory":[

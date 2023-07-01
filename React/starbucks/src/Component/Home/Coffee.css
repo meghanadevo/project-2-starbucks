@@ -1,0 +1,69 @@
+#coffee-heading{
+    color:black;
+    display:inline-block;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+.coffee-header>button{
+    float:right;
+    border:none;
+    background-color:#F0E9E9;
+    color:#14C38E;
+    margin-top:20px;
+    font-weight:bold;
+}
+.coffee-subheading{
+    color:white; 
+    margin-top:30%;
+    line-height:0.3rem;
+    font-size:27px;
+}
+#coffee-para{
+    color:white;
+    font-size:small;
+    font-weight:bold;
+}
+.coffee{
+    background-color: #F0E9E9;
+    height:452px;
+    padding:1.5%;
+}
+.coffee-header{
+    height:10%;
+    width:85%;
+    position:absolute;
+    margin:0% 0% 2% 7.5%;
+}
+.coffee-body{
+background-color:black;
+width:83%;
+height:51%;
+margin:5% 8% 0% 7%;
+position:absolute;
+border-radius:12px;
+}
+.coffee-body>button{
+    margin:20px 0px 0px 20px;
+    border:none;
+    background-color:white;
+    color:#14C38E;
+    padding:5px 20px 5px 20px;
+    border-radius:8px;
+    font-weight: 900;
+}
+ .coffee-sub-body{
+    width:60%;
+    height:100%;
+    inset:0;
+    margin:0% 20% 0% 20%;
+    position: absolute;
+    box-shadow:2px 2px 120px  black inset;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.coffee-sub-body>button{
+    background-color: white;
+    color: black;
+    padding:5px 50px 5px 50px;
+    border-radius:5px;
+    font-weight:bold;
+}

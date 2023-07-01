@@ -19,6 +19,17 @@ app.get('/food',async (req,res)=>{
     let output = await getData(collection,query)
     res.send(output)
 })
+//get category based menu
+ app.get('/category',async(req,res)=>{
+    if(req.query.categoryId){
+        query={category_id:Number(req.query.categoryId)}
+    }else{
+      query={};  
+    }
+    let collection = "category";
+    let output = await getData(collection,query)
+    res.send(output)
+ })
 // get all location
 app.get('/city',async (req,res)=>{
     let query = {};
