@@ -82,9 +82,16 @@ app.get('/filter/:categoryId',async(req,res)=>{
         let output = await getData(collection,query)
         res.send(output)
     })
+
     //get menu
     app.get('/menu',async (req,res)=>{
-        let query = {};
+        if((req.query.areaId) && (req.query.categoryId)){
+            query={area_id:Number(req.query.areaId),
+                category_id:Number(req.query.categoryId)                              }
+        }
+        else{
+            query={};
+        }
         let collection = "menu"
         let output = await getData(collection,query)
         res.send(output)
