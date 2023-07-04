@@ -1,37 +1,38 @@
-.sample-loc-box{
+.loc-box{
     background-color:#395144;
     height: 100px;
     display:flex;
     margin-top:10px;
     margin-bottom: 10px; 
  }
- .sample-search-box{
+ .search-box{
      height:36px;
      width: 356px;
      display:flex;
      border-bottom:1px solid gray;
      margin:40px 152px 0px;
  }
- .sample-my-spans{
+ .my-spans{
      font-size:15px;
      font-weight:400;
      color:gray;
      margin:15px 30px ;
  }
- .sample-my-spans:hover{
+ .my-spans:hover{
      color:white;
  }
- .sample-search-box:hover{
+ .search-box:hover{
      border-bottom:1px solid white;
  }
- .sample-menu{
+ .menu{
      display:flex;
      height:48px;
      background-color:#EEE2DE;
      margin-top:0px;
+     margin-bottom:4%;
      padding-left: 150px;
  }
- .sample-menu-item{
+ .menu-item{
      float:left;
      margin:10px 10px 0px 10px;
      height:22px;
@@ -53,18 +54,10 @@
      text-underline-offset: 0.5rem;
      color:#14C38E;
  }
- .sample-tile{
-     display:flex;
-     margin-left:6.5%; 
-     padding-top:6%;
+ .extra-tile{
+     display:inline;
  }
- .sample-extra-tile-heading{
-     color:gray;
-     position:relative;
-     bottom: 55px;
-     left: 90px;
- }
- .sample-BR{
+ .extra-BR{
      display:inline-block;
      width:400px;
      height:180px;
@@ -76,7 +69,7 @@
      margin-bottom:4%;
      box-shadow:0px 1px 5px gray;
  }
- .sample-BR-img{
+ .extra-BR-img{
      border-radius:50px;
      width:83px;
      height:80px;
@@ -86,22 +79,21 @@
      top: 8px;
      right: 5px;
  }
- .sample-veg-logo{
+ .extra-veg-logo{
      height:15px;
      width:15px;
      position:relative;
      bottom:55px;
      left:30px;
  }
- .sample-BR-span{
-   
+ .extra-BR-span{
      font-size: medium;
      margin-top: 40px;
      margin-left: 15px;
      position: absolute;
      color:gray;
  }
- .sample-BR-span-sub{
+ .extra-BR-span-sub{
      color:gray;
      font-size:10px;
      position:absolute;
@@ -110,7 +102,7 @@
      font-size:10px;
      top:61px;
  }
- .sample-BR-2{
+ .extra-BR-2{
      font-size:10px;
      position:absolute;
      top:20px;
@@ -119,13 +111,13 @@
      font-size:10px;
      top:77px;  
  }
- .sample-BR-span2{
+ .extra-BR-span2{
      padding-top:5px;
      padding-left:25px;
  }
  
  
- .sample-span-below{
+ .extra-span-below{
      font-size: medium;
      font-weight:bold;
      color:#2C3333;
@@ -133,7 +125,7 @@
      position: relative;
      top: 9px;
  }
- .sample-barista-button{
+ .extra-barista-button{
      float:right;
      border:none;
      border-radius:18px;
@@ -145,3 +137,4 @@
      position:relative;
      top:35px;
  }
+ 

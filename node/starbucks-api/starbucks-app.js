@@ -5,7 +5,6 @@ let Mongo = require('mongodb')
 const bodyParser= require('body-parser');
 const cors =require('cors');
 let {dbConnect,getData,postData,updateOrder,deleteOrder} = require('./controller/dbcontroller');
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors())
@@ -76,13 +75,6 @@ app.get('/filter/:categoryId',async(req,res)=>{
         let output = await getData(collection,query)
         res.send(output)
     })
-    //get menu
-    app.get('/menu',async (req,res)=>{
-        let query = {};
-        let collection = "menu"
-        let output = await getData(collection,query)
-        res.send(output)
-    })
     app.get('/storemenu/:id',async(req,res)=>{
         let id = Number(req.params.id)
         let query={area_id:id}
@@ -90,6 +82,7 @@ app.get('/filter/:categoryId',async(req,res)=>{
         let output = await getData(collection,query)
         res.send(output)
     })
+    //get menu
     app.get('/menu',async (req,res)=>{
         let query = {};
         let collection = "menu"

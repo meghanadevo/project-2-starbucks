@@ -1,6 +1,6 @@
 import React ,{useState,useEffect} from 'react';
-import {Link} from 'react-router-dom';
 import './LocSearch.css';
+import {Link} from 'react-router-dom';
 
 const base_url = "https://starbucks-live.onrender.com"
 const LocSearch=()=>{
@@ -61,9 +61,7 @@ const LocSearch=()=>{
                </select>
         </div>
     </div>
-    <Link to='/listing'>
     <button type="submit" className="Go">Seacrh</button>
-    </Link>
     <img className="cafe" src="https://i.ibb.co/xCTJ1VG/cafe-image.webp" alt="cafe-image"/>
     </>
     )

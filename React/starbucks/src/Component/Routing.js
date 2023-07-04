@@ -4,6 +4,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home/Home';
 import Main from './Main';
+import Menu from './Menu/Menu';
+import LocSearch from './Home/LocSearch';
 const Routing = ()=>{
     return(
         <div>
@@ -13,6 +15,8 @@ const Routing = ()=>{
                 <Route path ='/' element={<Main/>}/>
                     <Route index  element={<Home/>}/>
                      <Route path ='Home' element={<Home/>}/>
+                     <Route path ='Menu/:categoryid' element={<Menu/>}/>
+                     <Route path ='LocSearch' element={<LocSearch/>}/>
             </Routes>
             <Footer/>
             </BrowserRouter>

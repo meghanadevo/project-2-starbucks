@@ -8,9 +8,9 @@ const Header = () =>{
             <header>
             <img src="https://i.ibb.co/0qhj0Zy/starbuks-logo.png" alt="starbuks-logo" className='Headerpic'/>
             <div className="home"><Link to ='/' >Home</Link></div>
-             <div className="home"><Link to='/SampleConnect'>Order</Link></div> 
-             <div className="home"><a href="*">Pay</a></div>
-             <div className="home"><Link to='/LocSearch'>Store</Link></div>
+             <div className="home"><a href="http://localhost:3000/Menu/1">Order</a></div> 
+             <div className="home">Pay</div>
+             <div className="home"><a href="http://localhost:3000/LocSearch">Store</a></div>
               <span id="geo" onclick="geolocation()"><i class="fa-solid fa-location-dot"></i></span>
               <span id="out"></span>
              <form ><input type="text" placeholder= "looking for something else??"/></form>
