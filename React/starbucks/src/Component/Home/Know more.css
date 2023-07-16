@@ -1,5 +1,5 @@
 .section-1{
-    height:50px;
+    height:70px;
     background-color: #395144;
     margin:4px 0px 4px 0px;
     padding-left: 10%;
@@ -11,12 +11,17 @@
     border:1px solid white;
     border-radius:25px;
     background-color: #395144;
-    padding:10px 20px 10px 20px;
+    padding:5px 20px 5px 20px;
     color:white;
     font-weight:bold;
+    position: relative;
+    bottom: 7px;
 }
 .Knowmore{
     color:white;
     float:left;
     font-size:20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    position:relative;
+    bottom:2px;
 }

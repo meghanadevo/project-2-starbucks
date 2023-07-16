@@ -34,6 +34,9 @@ const Menu=()=>{
                 <div class="menu-item"><a href="http://localhost:3000/Menu/4">Merchandise</a></div>
                 <div class="menu-item"><a href="http://localhost:3000/Menu/5">Ready to Eat</a></div>
             </div>
+            <div className="cuisine-filter">
+            <div className="cuisine-item">Drinks</div>
+            </div>
         <MenuDisplay MenuData={MenuType}/>
         </>
     )

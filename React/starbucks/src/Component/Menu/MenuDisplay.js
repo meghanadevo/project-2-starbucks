@@ -16,7 +16,7 @@ const MenuDisplay=(props)=>{
                     <span className="extra-BR-2">  We blend mocha sauce and Frappuccino chips with Frappuccino...
                     </span>
                     <div className="extra-BR-span2"><span className="extra-span-below">₹{item.price}.00</span>
-                       <Link to={`/item/${item.item_id}`}>
+                       <Link to={`/details?itemId=${item.item_id}`}>
                         <button type="button" class="extra-barista-button">Add item</button>
                      </Link>  
                      </div> 

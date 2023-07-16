@@ -6,7 +6,10 @@ import Home from './Home/Home';
 import Main from './Main';
 import Menu from './Menu/Menu';
 import LocSearch from './Home/LocSearch';
-import Item from './itemDetails/item';
+import DetailDisplay from './Details/detailsLogic';
+import PlaceOrder from './Orders/PlaceOrder';
+import ViewOrder from './Orders/ViewOrder';
+
 const Routing = ()=>{
     return(
         <div>
@@ -18,7 +21,10 @@ const Routing = ()=>{
                      <Route path ='Home' element={<Home/>}/>
                      <Route path ='Menu/:categoryid' element={<Menu/>}/>
                      <Route path ='LocSearch' element={<LocSearch/>}/>
-                     <Route path ='item/:itemid' element={<Menu/>}/>
+                     <Route path ='details' element={<DetailDisplay/>}/>
+                     <Route path ='placeorder/:itemName' element={<PlaceOrder/>}/>
+                     <Route path ='vieworder' element={<ViewOrder/>}/>
+                    
             </Routes>
             <Footer/>
             </BrowserRouter>

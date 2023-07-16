@@ -14,6 +14,8 @@ body{
     width:60px;
      float:left;
      border-radius: 50%;
+     position: relative;
+     top:13px;
     
 }
 .home{
@@ -21,6 +23,8 @@ body{
     margin: 20px;
     padding-left:10px;
     padding-right:10px;
+    position: relative;
+    top:13px;
     vertical-align: baseline;
 }
 a{
@@ -35,12 +39,13 @@ a:hover{
     color:black;
 }
 input{
-    width:13%;
+    width:19%;
+    height:12%;
     float:left;
     position: relative;
     left:240px;
-    top:-12px;
-    padding:13px 25px;
+    top:-5px;
+    padding:10px 25px;
     border-radius:25px;
     border:none;
     box-shadow: 1px 1px #888888;
@@ -56,7 +61,7 @@ input[type=text]{
 }
 #geo{
     position: relative;
-    top:15px;
+    top:29px;
     right:80px;
     margin-left:70px;
     font-size:medium;

@@ -1,0 +1,14 @@
+.my-table{
+   
+    width:100%;
+    margin-bottom:2%;
+    text-align:center;
+}
+th{
+    padding:10px;
+    text-align:center;
+}
+hr{
+    height:10px;
+    width:95%;
+}

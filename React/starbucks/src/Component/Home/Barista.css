@@ -1,7 +1,8 @@
 .Barista{
-    height:330px;
+    height:318px;
     background-color:#F0E9E9;
     font-family: 'Nanum Gothic',sans-serif;
+    padding-top:28px;
 }
 .BR-header{
     padding-top:4px;
@@ -17,7 +18,7 @@
     border:none;
     font-size: 14px;
     font-weight:bold;
-    margin-top:25px;
+    margin-top:8px;
     margin-right:150px;
 }
 .tile{
@@ -39,7 +40,7 @@
    
 }
 .veg-logo{
-    height:15px;width:15px;position:relative;bottom:55px;left:30px;
+    height:15px;width:15px;position:relative;bottom:18px;left:30px;
 }
 .BR-span{
     font-size: medium;

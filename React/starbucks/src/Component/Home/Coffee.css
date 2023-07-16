@@ -1,14 +1,14 @@
 #coffee-heading{
     color:black;
     display:inline-block;
-    font-family: 'Nanum Gothic',sans-serif;
+    font-weight: bold;
+    font-size:30px;
 }
 .coffee-header>button{
     float:right;
     border:none;
     background-color:#F0E9E9;
     color:#14C38E;
-    margin-top:20px;
     font-weight:bold;
 }
 .coffee-subheading{
@@ -24,8 +24,9 @@
 }
 .coffee{
     background-color: #F0E9E9;
-    height:452px;
+    height:490px;
     padding:1.5%;
+    font-family: 'Nanum Gothic',sans-serif;
 }
 .coffee-header{
     height:10%;
@@ -37,7 +38,7 @@
 background-color:black;
 width:83%;
 height:51%;
-margin:5% 8% 0% 7%;
+margin:4.5% 8% 0% 7%;
 position:absolute;
 border-radius:12px;
 }
