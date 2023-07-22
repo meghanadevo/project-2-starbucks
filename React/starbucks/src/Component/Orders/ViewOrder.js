@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import DisplayOrder from './DisplayOrder';
 import axios from 'axios';
-const url = "https://starbucks-live.onrender.com/orders";
+
+const url = "https://starbucks-live.onrender.com/orders" ;
 
 const ViewOrder=()=>{
 const[orders,setOrder] =  useState();

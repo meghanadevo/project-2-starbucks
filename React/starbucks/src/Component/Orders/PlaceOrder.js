@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import './PlaceOrder.css';
-const url = "https://starbucks-live.onrender.com/orders";
+const url = "https://starbucks-live.onrender.com/orders" ;
 
 
 const PlaceOrder=()=>{
@@ -13,7 +13,7 @@ const PlaceOrder=()=>{
         item_name:params.itemName,
         name:"",
         email:"",
-        cost:Math.floor(Math.random()*10000),
+        cost:Math.floor(Math.random()*1000),
         phone:"",
         address:"",
     

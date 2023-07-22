@@ -23,8 +23,7 @@ const Routing = ()=>{
                      <Route path ='LocSearch' element={<LocSearch/>}/>
                      <Route path ='details' element={<DetailDisplay/>}/>
                      <Route path ='placeorder/:itemName' element={<PlaceOrder/>}/>
-                     <Route path ='vieworder' element={<ViewOrder/>}/>
-                    
+                     <Route path ='vieworder' element={<ViewOrder/>}/>    
             </Routes>
             <Footer/>
             </BrowserRouter>

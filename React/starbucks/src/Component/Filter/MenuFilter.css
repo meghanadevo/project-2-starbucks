@@ -1,0 +1,22 @@
+.filter{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    border:none;
+    position:relative;
+    left: -5px;
+    top:-5px;
+    accent-color: gray;
+   
+}
+.sub-filter{
+    display: inline;
+    margin-right:18px;
+    margin-left:18px;
+    padding-right:7px;
+    border-right:1px solid white;
+}

@@ -1,10 +1,12 @@
 import React ,{useState,useEffect} from 'react';
+import { useNavigate } from 'react-router-dom';
 import './LocSearch.css';
 import {Link} from 'react-router-dom';
 const base_url = "https://starbucks-live.onrender.com";
 const LocSearch=()=>{
  const [location,setlocation] = useState('');
  const [RestData,setRestData] = useState('');
+ let navigate = useNavigate();
  useEffect(()=>{
     fetch(`${base_url}/city`,{method:'GET'})
     .then((res)=>res.json())
@@ -42,6 +44,9 @@ const LocSearch=()=>{
         })
     }
  }
+ const search=()=>{
+    navigate(`/Menu/${RestData.area_name}`)
+ }
     return(
         <>
         <div className="search">
@@ -58,7 +63,9 @@ const LocSearch=()=>{
                </select>
         </div>
     </div>
-    <button type="submit" className="Go">Search</button>
+  
+    <button type="submit" className="Go" onClick={search}>Search</button>
+   
     <img className="cafe" src="https://i.ibb.co/xCTJ1VG/cafe-image.webp" alt="cafe-image"/>
     </>
     )
